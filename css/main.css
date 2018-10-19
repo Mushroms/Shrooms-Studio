@@ -2,24 +2,32 @@ body {
   height: 600px;
   background: url(../img/background.png);
   font-family: Monaco, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .container {
   display: flex;
   justify-content: center;
   margin: 100px 0 auto;
-
 }
 
 .container-footer {
   display: flex;
   justify-content: center;
-  margin: 100px 0 auto;
+  width: 100%;
   margin-top: 120px;
+  margin-bottom: 30px;
+  background: #cbcbcb;
+  height: 3px;
 }
 
-.Line {
+.line {
   display: flex;
+  width: 100%;
   margin-bottom: 40px;
 }
 
@@ -27,23 +35,28 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 70px 190px;
+  margin: 60px auto;
+}
+
+.left_link, .right_link {
+  display: flex;
+  min-width: 300px;
 }
 
 .left_link {
-  display: flex;
   text-align: left;
-
+  margin-left: 180px;
 }
 
 .right_link {
-  display: flex;
   text-align: right;
+  margin-right: 180px;
 }
 
 .link_container a,
 .link_container a:link,
 .link_container a:visited {
+  width: 100%;
   color: #cbcbcb;
 }
 
