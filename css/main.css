@@ -1,0 +1,52 @@
+body {
+  height: 600px;
+  background: url(../img/background.png);
+  font-family: Monaco, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 auto;
+
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 auto;
+  margin-top: 120px;
+}
+
+.Line {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.link_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 70px 190px;
+}
+
+.left_link {
+  display: flex;
+  text-align: left;
+
+}
+
+.right_link {
+  display: flex;
+  text-align: right;
+}
+
+.link_container a,
+.link_container a:link,
+.link_container a:visited {
+  color: #cbcbcb;
+}
+
+.link_container a:hover {
+  color: #00b983;
+}
