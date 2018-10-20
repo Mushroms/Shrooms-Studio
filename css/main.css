@@ -7,21 +7,15 @@ body {
 .container {
   display: flex;
   justify-content: center;
-
-
 }
 
 .container-footer {
   display: flex;
   justify-content: center;
-
-
-
 }
 
 .Line {
   display: flex;
-
 }
 
 .link_container {
@@ -52,13 +46,22 @@ body {
 }
 
 @media screen and (min-device-width: 768px) {
-   .container, .container-footer  {margin: 1% 0 auto}
+  .container,
+  .container-footer {
+    margin: 1% 0 auto;
+  }
 }
 
 @media screen and (min-device-width: 900px) {
-   .container, .container-footer  {margin: 5% 0 auto}
+  .container,
+  .container-footer {
+    margin: 5% 0 auto;
+  }
 }
 
 @media screen and (min-device-width: 1200px) {
-   .container, .container-footer  {margin: 7% 0 auto}
+  .container,
+  .container-footer {
+    margin: 9% 0 auto;
+  }
 }
