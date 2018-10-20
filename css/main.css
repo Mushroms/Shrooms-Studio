@@ -7,7 +7,6 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  margin: 5% 0 auto;
 
 
 }
@@ -15,7 +14,7 @@ body {
 .container-footer {
   display: flex;
   justify-content: center;
-  margin: 7% 0 auto;
+
 
 
 }
@@ -51,18 +50,15 @@ body {
 .link_container a:hover {
   color: #00b983;
 }
-@media screen and (max-device-width: 768px) {
-    .container, .container-footer  {width: 100px; height: 330px}
+
+@media screen and (min-device-width: 768px) {
+   .container, .container-footer  {margin: 1% 0 auto}
 }
 
-@media screen and (max-device-width: 900px) {
-    .container, .container-footer  {margin: 5% 0 auto;}
-   }
-
-@media screen and (max-device-width: 1080px) {
-    .container, .container-footer  {margin: 7% 0 auto;}
+@media screen and (min-device-width: 900px) {
+   .container, .container-footer  {margin: 5% 0 auto}
 }
 
-@media screen and (max-device-width: 1200px) {
-    .container, .container-footer  {margin: 10% 0 auto;}
+@media screen and (min-device-width: 1200px) {
+   .container, .container-footer  {margin: 7% 0 auto}
 }
