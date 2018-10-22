@@ -15,10 +15,14 @@ body {
 .container-footer {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background: #cbcbcb;
+  height: 3px;
 }
 
 .Line {
   display: flex;
+  width: 100%;
 }
 
 .link_container {
@@ -36,13 +40,13 @@ body {
 .left_link {
   display: flex;
   text-align: left;
-  margin-left: 180px;
+
 }
 
 .right_link {
   display: flex;
   text-align: right;
-  margin-right: 180px;
+
 }
 
 .link_container a,
@@ -79,11 +83,5 @@ body {
   .container,
   .container-footer {
     margin: 8% 0 auto;
-  }
-}
-
-@media screen and (min-device-width: 2880px) {
-  .link_container {
-    margin: 70px 690px;
   }
 }
