@@ -1,5 +1,5 @@
 body {
-  height: 600px;
+
   background: url(../img/background.png);
   font-family: Monaco, sans-serif;
   background-position: center top;
@@ -10,6 +10,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .container-footer {
@@ -22,7 +23,7 @@ body {
 
 .Line {
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 
 .link_container {
@@ -30,6 +31,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 70px 190px;
+
 }
 
 .left_link, .right_link {
@@ -40,13 +42,11 @@ body {
 .left_link {
   display: flex;
   text-align: left;
-
 }
 
 .right_link {
   display: flex;
   text-align: right;
-
 }
 
 .link_container a,
