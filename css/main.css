@@ -2,6 +2,9 @@ body {
   height: 600px;
   background: url(../img/background.png);
   font-family: Monaco, sans-serif;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .container {
@@ -63,5 +66,17 @@ body {
   .container,
   .container-footer {
     margin: 9% 0 auto;
+  }
+}
+@media screen and (min-device-width: 2880px) {
+  .container,
+  .container-footer {
+    margin: 8% 0 auto;
+  }
+}
+
+@media screen and (min-device-width: 2880px) {
+  .link_container {
+    margin: 70px 690px;
   }
 }
