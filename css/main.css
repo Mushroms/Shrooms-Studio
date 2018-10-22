@@ -28,14 +28,21 @@ body {
   margin: 70px 190px;
 }
 
+.left_link, .right_link {
+  display: flex;
+  min-width: 300px;
+}
+
 .left_link {
   display: flex;
   text-align: left;
+  margin-left: 180px;
 }
 
 .right_link {
   display: flex;
   text-align: right;
+  margin-right: 180px;
 }
 
 .link_container a,
@@ -65,7 +72,7 @@ body {
 @media screen and (min-device-width: 1200px) {
   .container,
   .container-footer {
-    margin: 9% 0 auto;
+    margin: 7% 0 auto;
   }
 }
 @media screen and (min-device-width: 2880px) {
