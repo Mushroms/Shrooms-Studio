@@ -1,5 +1,4 @@
 body {
-
   background: url(../img/background.png);
   font-family: Monaco, sans-serif;
   background-position: center top;
@@ -31,10 +30,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 70px 190px;
-
 }
 
-.left_link, .right_link {
+.left_link,
+.right_link {
   display: flex;
   min-width: 300px;
 }
@@ -83,5 +82,12 @@ body {
   .container,
   .container-footer {
     margin: 8% 0 auto;
+  }
+}
+
+@media screen and (min-device-width: 1880px) {
+  .container,
+  .container-footer {
+    margin: 7% 0 auto;
   }
 }
